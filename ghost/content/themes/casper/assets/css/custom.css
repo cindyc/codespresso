@@ -1,0 +1,12 @@
+.page-title {
+    font-size: 5em;
+    font-weight: 700;
+    background-color: #61380B;
+    color: antiquewhite;
+}
+.page-description {
+    color: antiquewhite;
+    font-size: 1em;
+    font-weight: 600; 
+    background: black;
+}
