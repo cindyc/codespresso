@@ -1,9 +1,7 @@
-[Productivity] Browser Hacks 
-============================
+#### [Productivity] Browser Hacks 
 
 
-Google from the Command Line: 
------------------------------
+###### Google from the Command Line 
 
 Add this to your .bash_profile:  
 

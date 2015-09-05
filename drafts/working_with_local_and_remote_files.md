@@ -1,10 +1,9 @@
-[Productivity] Working with Local and Remote Files
-=======================================================
+#### [Productivity] Working with Local and Remote Files
 
 You often need to share files between local and remote hosts, read/browse files on a remote host, or upload and download files. The following hacks will make these tasks easier: 
 
 
-#### Setting up a HTTP Server to Quickly Serve Files from Any Directory: 
+###### Setting up a HTTP Server to Quickly Serve Files from Any Directory 
 
 ```python 
 # Python 2
@@ -40,4 +39,4 @@ java -jar jetty-runner-9.3.0.M0.jar  --port 8888  .
 ```
 Go to http://localhost:8888/ and you will see your files. And your files are available at http://{your_ip_address}:8888 for others to download (so remember to shutdown the server once your file sharing is done).
 
-Source: https://github.com/mbostock/d3/wiki
+Source: *https://github.com/mbostock/d3/wiki*
