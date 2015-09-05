@@ -44,9 +44,43 @@ Source: https://github.com/mbostock/d3/wiki
 
 ###### Google from command line: 
 
-Add this to your .bashrc or .zshrc: 
+Add this to your .bash_profile or .zshrc: 
 
 ```bash
-function google() { open /Applications/Google\ Chrome.app/ "http://www.google.com/search?q= ${*:1}"; }
+function google() { open /Applications/Google\ Chrome.app/ "http://www.google.com/search?q= ${*}"; }
+source ~/.bash_profile  # or source ~/.zshrc
+```
+Try it: 
+
+```bash
+google btree
+google 'vim plugin for evernote'
 ```
 
+If you like text-based browser like I do, you can use the following scripts to search with [https://en.wikipedia.org/wiki/Lynx_(web_browser)](Lynx) 
+
+First do 'brew install lynx' to install lynx 
+
+To do google search with the lynx browser:
+
+```bash
+function lgoogle() {
+    lynx --accept-all-cookies -underline_links "http://www.google.com/search?q=${*}"
+}
+
+# lgoogle nytimes
+# lgoogle "text based browser"
+#type 'q' to exit Lynx
+```
+
+
+To get a page or search result displayed without going into interactive mode, add '-dump' option to the lynx command. To skip displaying all the referenced links, add '-nolist' option. 
+For example, the following displays the wiki page of your search term (or the disambiguation page if there are multiple matches): 
+```bash
+function wiki() {
+    lynx --accept-all-cookies -underline_links "https://en.wikipedia.org/wiki/Special:Search/${*}" -nolist -dump
+}
+wiki "Lynx text browser"
+wiki lynx # displays the disambiguation page
+
+```
