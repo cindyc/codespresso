@@ -1,4 +1,4 @@
-[Productivity Hack] Working with Local and Remote Files
+[Productivity] Working with Local and Remote Files
 =======================================================
 
 You often need to share files between local and remote hosts, read/browse files on a remote host, or upload and download files. The following hacks will make these tasks easier: 
