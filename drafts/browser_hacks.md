@@ -20,8 +20,7 @@ google btree
 google 'vim plugin for evernote'
 ```
 
-Using Text-Based Browsers
--------------------------
+###### Using Text-Based Browsers
 
 If you like text-based browser like I do, you can use the following scripts to search with [http://lynx.isc.org/lynx2.8.7/index.html](Lynx) 
 
