@@ -46,5 +46,7 @@ Source: https://github.com/mbostock/d3/wiki
 
 Add this to your .bashrc or .zshrc: 
 
+```bash
 function google() { open /Applications/Google\ Chrome.app/ "http://www.google.com/search?q= ${*:1}"; }
+```
 
