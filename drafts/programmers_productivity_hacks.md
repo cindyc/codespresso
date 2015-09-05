@@ -31,12 +31,12 @@ http-server
 Java: 
 
 ```java
+# Download jetty-runner from http://www.eclipse.org/jetty/documentation/current/runner.html
 java -jar jetty-runner-9.3.0.M0.jar  --port 8888  .
 ```
-
-https://github.com/mbostock/d3/wiki
-
 Go to http://localhost:8888/ and you will see your files. Anyone else can go to http://{your_ip_address}:8888 to download files.
+
+Source: https://github.com/mbostock/d3/wiki
 
 
 
