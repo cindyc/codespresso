@@ -1,7 +1,9 @@
 Command Line Shortcuts: 
------------------------
+=======================
 
-###### Google from command line: 
+
+Google from the Command Line: 
+-----------------------------
 
 Add this to your .bash_profile:  
 
@@ -19,6 +21,9 @@ Try it:
 google btree
 google 'vim plugin for evernote'
 ```
+
+Using Text-Based Browsers
+-------------------------
 
 If you like text-based browser like I do, you can use the following scripts to search with [http://lynx.isc.org/lynx2.8.7/index.html](Lynx) 
 

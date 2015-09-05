@@ -1,9 +1,10 @@
-##### [Productivity Hack] Working with Local and Remote Files
+[Productivity Hack] Working with Local and Remote Files
+=======================================================
 
-You often have to share files on your localhost, read or browse files on a remote host, and upload/download files. The following hacks will make these tasks easier: 
+You often need to share files between local and remote hosts, read/browse files on a remote host, or upload and download files. The following hacks will make these tasks easier: 
 
 
-###### You can set up a HTTP server quickly to serve files from any directory: 
+#### Setting up a HTTP Server to Quickly Serve Files from Any Directory: 
 
 ```python 
 # Python 2
