@@ -11,7 +11,7 @@ url: http://www.codespresso.net
 show_drafts: null
 
 # Serving
-baseurl: "" # does not include hostname
+baseurl: http://www.codespresso.net
 
 # Jekyll configuration
 
