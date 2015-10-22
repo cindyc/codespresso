@@ -10,6 +10,9 @@ url: https://cindyc.github.io/codespresso/
 # Filtering Content
 show_drafts: null
 
+# Serving
+baseurl: "" # does not include hostname
+
 # Jekyll configuration
 
 permalink:   /:categories/:title/
